@@ -1,0 +1,399 @@
+body {
+  width: 100%;
+}
+
+.navbar {
+  background: transparent;
+  height: 103px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  /* position: sticky; */
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+.container {
+  height: 103px;
+  z-index: 1;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 57px;
+  padding-left: 74px;
+}
+
+.line1 {
+  display: block;
+  width: 118px;
+  background-color: #ffba00;
+  border: 1px solid #ffba00;
+  margin-bottom: 3px;
+  margin-top: 3px;
+
+}
+
+.navbar-logo {
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+#navbar-icon {
+  margin-right: 0.5rem;
+}
+
+.nav-btn {
+  padding-top: 2px;
+  margin-right: 37px;
+}
+
+.nav-menu {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+}
+
+.nav-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-flag-item {
+  height: 63px;
+  z-index: 1;
+}
+
+.nav-flag-links {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-right: 2.0rem;
+}
+
+.fa {
+  padding-top: 2px;
+}
+
+.btn-outline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffba00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 170px;
+  height: 45px;
+  font-size: 16px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid #ffba00;
+}
+
+.nav-links {
+  color: black;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 48px;
+}
+
+.nav-links:hover {
+  color: #ffba00;
+}
+
+.nav-links:focus {
+  color: #099670;
+  border-bottom: 2px solid #099670;
+  line-height: 2.0;
+}
+
+.fa-bars {
+  color: black;
+}
+
+.menu-icon {
+  display: none;
+}
+
+.login {
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: #ffba00;
+  background-image: none;
+  height: 27px;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0 15px !important;
+  margin-right: 20px;
+  box-shadow: 5px 5px 5px 0 rgb(255 186 0 / 35%);
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  cursor: pointer;
+}
+
+.navbar-logo2 {
+  display: none;
+}
+
+.login:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid #ffba00;
+  transition: all 0.5s ease;
+}
+
+.arrow {
+  padding-left: 10px;
+}
+
+.arrow:hover {
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(0%) contrast(119%);
+
+}
+
+.img {
+  width: 8.7em;
+}
+
+.line2 {
+  display: none;
+}
+
+.background-img {
+  background-image: url(https://expeditionsconnect.com/_next/static/media/landingpage4.3a2e77f5.png);
+  width: 100%;
+  height: 83vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* .sidebar-container {
+  top: 0;
+  height: 30px;
+} */
+
+/* @media query navlogo */
+@media screen and (max-width: 1200px) {
+  .img {
+    width: 7.3rem;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .img {
+    width: 5.9em;
+  }
+}
+
+@media screen and (max-width: 1140px) {
+  .img {
+    width: 4.5em;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .img {
+    width: 3.5em;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .img {
+    width: 2.3em;
+  }
+}
+
+@media screen and (max-width: 1052px) {
+  .img {
+    width: 1.7em;
+  }
+}
+
+@media screen and (max-width: 1028px) {
+  .img {
+    width: 1.4em;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .img {
+    width: 1.1em;
+  }
+}
+
+@media screen and (max-width: 1018px) {
+  .img {
+    width: 0.8em;
+  }
+}
+
+@media screen and (max-width: 1012px) {
+  .img {
+    width: 0.4em;
+  }
+}
+
+@media screen and (max-width: 1005px) {
+  .img {
+    width: 0.1em;
+  }
+}
+
+@media screen and (max-width: 1028px) {
+  .img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 989px) {
+  .container {
+    padding-left: 50px;
+  }
+}
+
+
+/* @media query */
+@media screen and (max-width: 967px) {
+  .NavbarItems {
+    position: relative;
+  }
+
+  .nav-links {
+    margin-left: 0;
+  }
+
+  .line2 {
+    display: block;
+    width: 100%;
+  }
+
+  .navbar-logo2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+  }
+
+  .img2 {
+    width: 8.7em;
+  }
+
+  .img {
+    padding-left: 30%;
+    display: block;
+    width: 8.7em;
+  }
+
+  .navbar {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 25%;
+    height: 70vh;
+    position: fixed;
+    top: -19px;
+    overflow: hidden;
+    right: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    float: right;
+  }
+  
+
+  .nav-menu.active {
+    display: flex;
+    align-items: center;
+    background: white;
+    right: 0;
+    height: 580px;
+    opacity: 1;
+    transition: all 0.6s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    display: table;
+  }
+
+  .nav-links:hover {
+    color: #ffba00;
+  }
+
+  .nav-item:hover {
+    border: none;
+  }
+
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar-logo {
+    position: absolute;
+    left: 0;
+  }
+
+  .menu-icon {
+    padding-right: 7%;
+    display: flex;
+    position: absolute;
+    right: 0;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+
+  .fa-times {
+    font-size: 2rem;
+  }
+
+  .nav-btn {
+    padding-top: 30px;
+    padding-left: 30px;
+    height: 120px;
+  }
+
+  .nav-flag-item {
+    padding-left: 8px;
+  }
+}
+
+/* .adv-types-main-div {
+  height: 90vh;
+  width: 100%;
+} */

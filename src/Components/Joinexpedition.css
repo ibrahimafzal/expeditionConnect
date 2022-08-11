@@ -1,0 +1,133 @@
+.join-expedition {
+    z-index: 1;
+    min-height: 506px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    max-width: 100vw;
+    position: relative;
+    padding-bottom: 34px;
+}
+
+.join-exp-image {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.join-expedition-content {
+    width: 78%;
+    padding-top: 60px;
+}
+
+.join-exp-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    font-size: 45px !important;
+    font-weight: 500 !important;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-family: 'Rubik', sans-serif;
+}
+
+.our-aim {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    min-height: 38.7%;
+    max-width: 104%;
+    position: relative;
+    margin-top: 40px;
+    height: 100%;
+    padding: 0 20px;
+}
+
+.our-aim-images {
+    z-index: 1;
+    position: absolute;
+    left: -97px;
+    top: -48px;
+}
+
+.flashlight {
+    position: absolute;
+    left: 1px;
+    top: -22px;
+}
+
+.hummer {
+    width: 187px;
+    position: absolute;
+    right: -1168px;
+    top: 11px;
+}
+
+.our-aim-text {
+    box-shadow: 9px 19px 21px rgb(110 110 110 / 10%);
+    padding: 95px;
+    text-align: center;
+    background-color: #fff;
+    font-size: 19px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2;
+    position: relative;
+    z-index: 5;
+    color: #111;
+}
+
+.compass-img {
+    /* display: contents; */
+    position: absolute;
+    left: -113px;
+    top: 78px;
+}
+
+.quote-open {
+    transform: translateY(-50%);
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+
+.quote-close {
+    inset: inherit;
+    transform: translateY(50%);
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+@media screen and (max-width:1200px) {
+    .flashlight {
+        display: none;
+    }
+
+    .hummer {
+        display: none;
+    }
+
+    .compass-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .join-expedition {
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 34px;
+    }
+    .join-exp-image{
+        width: unset;
+    }
+    .our-aim{
+        max-width: 104%;
+        min-height: 38.7%;
+    }
+}

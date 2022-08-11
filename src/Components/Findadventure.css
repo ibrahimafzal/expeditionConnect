@@ -1,0 +1,173 @@
+.main-div {
+    background-color: #f4f4f4;
+    align-items: center;
+    padding: 90px 1rem;
+}
+.color-yellow {
+    color: #ffba00;
+}
+.color-black {
+    font-size: 3em;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-bottom: 36px;
+    margin-top: 0;
+}
+.adv-subtile{
+    margin: 0 0 45px 0;
+    text-align: center;
+    letter-spacing: 0;
+    color: #111;
+    opacity: 1;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    line-height: 1.7;
+}
+.adv-container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* image layout CSS */
+.image-layout {
+    cursor: pointer;
+}
+.adv-img-container1{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    
+}
+.adv-img-container2{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+.adv-img-container3{
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+.img1 {
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    margin: 6px;
+    background-image: url(https://expeditions-connect-bucket.s3.eu-central-1.amazonaws.com/landingpage/Lastminute3.jpg);
+    width: 50%;
+    /* height: 315px; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-text {
+    position: absolute;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    min-height: 75px;
+    width: 100%;
+    background-color: rgba(0,0,0,.3);
+}
+.upper-title{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Rubik;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.lower-title{
+    font-size: 13px;
+    font-weight: 400;
+    padding-left: 15px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1em;}
+
+.img2{
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    margin: 6px;
+    background-image: url(https://expeditions-connect-bucket.s3.eu-central-1.amazonaws.com/landingpage/SpendPTO1.jpg);
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    margin: 6px;
+    background-image: url(https://expeditions-connect-bucket.s3.eu-central-1.amazonaws.com/landingpage/Weekend1.jpg);
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img4 {
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    margin: 6px;
+    background-image: url(https://expeditions-connect-bucket.s3.eu-central-1.amazonaws.com/landingpage/Bigthings2.jpg);
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.img5{
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    margin: 6px;
+    background-image: url(https://expeditions-connect-bucket.s3.eu-central-1.amazonaws.com/landingpage/ConnectNature1.jpg);
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img6{
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    margin: 6px;
+    background-image: url(https://expeditions-connect-bucket.s3.eu-central-1.amazonaws.com/landingpage/adventureschoolimageimg.jpg);
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img7 {
+    position: relative;
+    border-radius:5px 5px 0 0;
+    margin: 6px;
+    background-image: url(https://expeditions-connect-bucket.s3.eu-central-1.amazonaws.com/landingpage/bestof.png);
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.img8{
+    position: relative;
+    border-radius:5px 5px 0 0;
+    margin: 6px;
+    background-image: url(https://expeditions-connect-bucket.s3.eu-central-1.amazonaws.com/landingpage/destination1.jpg);
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img9{
+    position: relative;
+    border-radius: 5px 5px 0 0;
+    margin: 6px;
+    background-image: url(https://expeditions-connect-bucket.s3.eu-central-1.amazonaws.com/landingpage/Cutcovid1.jpg);
+    width: 52.3%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
